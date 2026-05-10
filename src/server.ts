@@ -48,6 +48,7 @@ const authenticate = (req: Request, res: Response, next: NextFunction): void => 
 
 // Existing Endpoints
 app.get('/', (req: Request, res: Response) => {
+    console.log("app is working fine !!!!")
     res.json({ message: "hello world" });
 });
 
